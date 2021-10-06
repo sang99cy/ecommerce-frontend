@@ -1,0 +1,16 @@
+<jhi-page-ribbon></jhi-page-ribbon>
+
+<div>
+  <router-outlet name="navbar"></router-outlet>
+</div>
+<div class="container-fluid">
+  <div class="row" style="height:100%">
+    <div class="col-lg-2">
+      <jhi-menu-vertical></jhi-menu-vertical>
+    </div>
+    <div class="col-lg-10 card jh-card">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <!--<jhi-footer></jhi-footer>-->
+</div>
